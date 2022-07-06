@@ -1,0 +1,262 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbarContainer">
+            <div class="logoContainer"><h1 class="logo">DULU</h1></div>
+            <div class="menuContainer">
+                <ul class="menuList">
+                    <li class="menuListItem">Home</li>
+                    <li class="menuListItem">Movies</li>
+                    <li class="menuListItem">Series</li>
+                    <li class="menuListItem">Popular</li>
+                </ul>
+            </div>
+            <div class="profileContainer">
+                <img src="./img/profile.jpg" alt="" class="profilePicture">
+                <div class="profileTextContainer">
+                    <span class="profileText">Profile</span>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-solid fa-moon toggleIcon"></i>
+                    <i class="fa-solid fa-sun toggleIcon"></i>
+                    <div class="toggleBall"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="leftMenuIcon fa-solid fa-magnifying-glass"></i> 
+        <i class="leftMenuIcon fa-solid fa-house"></i>
+        <i class="leftMenuIcon fa-solid fa-user"></i>
+        <i class="leftMenuIcon fa-solid fa-bookmark"></i>
+        <i class="leftMenuIcon fa-solid fa-tv"></i>
+        <i class="leftMenuIcon fa-solid fa-hourglass"></i>
+        <i class="leftMenuIcon fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+        <div class="contentContainer">
+            <div class="featuredContent"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featuredTitle" src="img/f-t-2.png" alt="">
+                <p class="featuredDesc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
+                    deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
+                    minima voluptatibus incidunt. Accusamus, provident.</p>
+                <button class="featuredButton">WATCH</button>
+            </div>
+            <div class="movieListContainer">
+                <h1 class="movieListTitle">NEW RELEASES</h1>
+                <div class="movieListWrapper">
+                    <div class="movieList">
+                        <div class="movieListItem">
+                            <img src="./img/15.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Diun</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/1.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Stranger Things</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/16.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">The Wolf from Wall Street</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/4.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">The Undoing</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/17.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">The Great Gatsby</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/18.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">A star is born</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/7.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Her</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movieListContainer">
+                <h1 class="movieListTitle" id="movies">MOVIES</h1>
+                <div class="movieListWrapper">
+                    <div class="movieList">
+                        <div class="movieListItem">
+                            <img src="./img/14.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Joker</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/9.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Interstellar</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/10.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Cloud Atlas</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/11.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Shutter Island</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/12.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Beautiful Boy</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/13.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Moonlight</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/8.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">C'mon c'mon</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movieListContainer">
+                <h1 class="movieListTitle" id="series">SERIES</h1>
+                <div class="movieListWrapper">
+                    <div class="movieList">
+                        <div class="movieListItem">
+                            <img src="./img/1.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Stranger Things</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/2.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Normal People</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/3.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Big Little Lies</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/4.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">The Undoing</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/5.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Sharp Objects</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/6.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Love Life</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/7.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Dark</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>            
+            <div class="movieListContainer">
+                <h1 class="movieListTitle" id="popular">POPULAR</h1>
+                <div class="movieListWrapper">
+                    <div class="movieList">
+                        <div class="movieListItem">
+                            <img src="./img/19.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">The Hangover 3</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/20.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">It</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/21.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Gone Girl</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/22.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Skyfall</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/23.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Lobster</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/24.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">La La Land</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                        <div class="movieListItem">
+                            <img src="./img/25.jpg" alt="" class="movieListItemImg">
+                            <span class="movieListItemTitle">Driver</span>
+                            <p class="movieListItemDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <button class="movieListItemButton">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>            
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
